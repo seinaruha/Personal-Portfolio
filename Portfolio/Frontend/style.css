@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Serbie";
+    src: url("../Fonts/Serbie.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Brolink DEMO";
+    src: url("../Fonts/Brolink DEMO.otf") format("truetype");
+}
+
+.title {
+    font-family: "Serbie", Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(53, 23, 23);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#username{
+    color: rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skills{
+    font-family: "Brolink DEMO", Arial, sans-serif;
+    color: rgb(252, 252, 252);
+    letter-spacing: 5px;
+}
+.glow-orb {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 300px;     
+  height: 300px;
+  background: #eec271; /* Bright glowing color */
+  border-radius: 50%;
+  filter: blur(90px); /* Softens the edges into a glow */
+  opacity: 0.6;
+}
